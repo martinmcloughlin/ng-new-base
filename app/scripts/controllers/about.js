@@ -9,7 +9,9 @@
  */
 angular.module('mmTrainApp')
   .controller('AboutCtrl', function () {
-    this.awesomeThings = [
+      var AboutCtrl = this;
+      
+      AboutCtrl.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
